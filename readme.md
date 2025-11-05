@@ -43,13 +43,13 @@ Complete these assignments during the live lesson. Each assignment builds on the
    - `id` (Integer, primary key)
    - `title` (String)
    - `author` (String)
-   - `readers` (relationship to readers)
+   - `readers` (relationship to BookReader)
 
 3. **Create Reader model** with:
    - `id` (Integer, primary key)
    - `name` (String)
    - `email` (String)
-   - `books` (relationship to books)
+   - `books` (relationship to BookReader)
 
 
 
